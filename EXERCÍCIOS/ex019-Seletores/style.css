@@ -1,0 +1,38 @@
+/* em HTML é indicado por # (Só pode um elemento.)
+   em CSS é identificado pelo . (Suporta vários elementos.)
+*/
+
+body{
+    background-color:rgb(181, 181, 236);
+
+}
+h1#principal{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+.basico{
+    color: green;
+
+}
+
+.intermediario{
+    color: rgb(128, 115, 0);
+
+}
+
+.avancado{
+    color: rgb(128, 36, 0);
+}

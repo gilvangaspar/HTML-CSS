@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Hover.</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgba(209, 184, 184, 0.432);
+        }
+
+        div >p{
+            display: none;
+
+        }
+
+        div:hover >p{
+            display: block;
+            color: white;
+            background-color: black;
+            width: 200px;
+        }
+     
+        div:hover{
+            color: red;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Hover.</h1>
+        <p>Saiba o nome do Curso que estou fazendo.</p>
+        <div>
+            Passe o mouse aqui!
+            <p><a href="https://www.cursoemvideo.com/" target="_self">Curso em Vídeo!!!</a></p>
+            
+
+        </div>
+        <p>Fim do Teste.</p>
+    
+</body>
+</html>

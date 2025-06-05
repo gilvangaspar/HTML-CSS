@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-image: linear-gradient(to bottom, #41D9FA, #87FA40);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:5px 5px 15px black;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:#97629E;
+    background-color: #FA9A4D;
+}
+
+h2{
+    text-align: left;
+    color: #4f595c;
+}
+
+p{
+    text-justify: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
